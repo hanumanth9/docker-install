@@ -10,6 +10,6 @@ sudo add-apt-repository \
     ubuntu-$(lsb_release -cs) \
     main" 
 sudo apt-get update
-sudo apt-get -y install docker-engine 
+sudo apt-get -y install docker.io 
 # add current user to docker group so there is no need to use sudo when running docker
 sudo usermod -aG docker $(whoami)
