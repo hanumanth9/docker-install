@@ -1,1 +1,1 @@
-sudo apt install -y docker.io
+sudo apt-get -y install docker.io 
