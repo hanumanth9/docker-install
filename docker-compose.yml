@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - /home/hanu/Desktop:/usr/share/nginx/html
+    ports:
+      - 80:80
