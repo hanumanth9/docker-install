@@ -1,4 +1,3 @@
-sudo apt-get -y install docker.io
 DIR="docker-install"
 if [ -d "$DIR" ]; then
   # Take action if $DIR exists. #
